@@ -1,0 +1,62 @@
+
+button {
+    font-size: 14px;
+    font-family: Roboto;
+    border: none;
+    color:rgb(233, 233, 233);
+    background-color: gray;
+    border-radius: 8px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    transition: 0.15s;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+button:hover {
+    color: gray;
+    background-color: white;
+    opacity: 0.7;
+}
+button:active{
+    opacity: 0.3;
+    color: gray;
+    background-color: white;
+}
+.perfilcard {
+    display: inline-block;
+    background-color: rgb(79, 72, 72);
+    width: 300px;
+    border-color: black;
+    border-radius: 10px;
+}
+.card_img_de_perfil {
+    display: block;
+    margin: auto;
+    width: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.card_heading {
+    text-align: center;
+    color: rgb(233, 233, 233);
+    font-weight: bolder;
+    margin-bottom: 5px;
+    font-family: Roboto;
+    font-size: 22px;
+    text-shadow: 1px 1px 2px rgb(0,0,0)
+}
+.card_descrição_perfil {
+    text-align: center; 
+    color: rgb(210, 210, 0);
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-family: Roboto;
+    font-size: 11px;
+    text-shadow: 1px 1px 2px rgb(0,0,0);
+}
+.card_botaoig {
+    margin-bottom: 15px;
+}
