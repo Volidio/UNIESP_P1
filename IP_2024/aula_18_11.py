@@ -16,3 +16,4 @@ try:
 
 except Exception as error:
     logger.exception(f'Error: {error}')
+#fazer arquivo chamado de conselho.txt e também baixar as bibliotecas (requests/loguru)
